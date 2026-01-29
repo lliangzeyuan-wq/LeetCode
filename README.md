@@ -1,4 +1,4 @@
 贪心算法
-题目：分发饼干
-题目链接：https://leetcode.cn/problems/assign-cookies/description/
-代码随想录的讲解链接；https://www.programmercarl.com/0455.%E5%88%86%E5%8F%91%E9%A5%BC%E5%B9%B2.html
+题目：买卖股票的最佳时机
+题目链接：https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/
+代码随想录的讲解链接；https://www.programmercarl.com/0122.%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BAII.html#%E6%80%9D%E8%B7%AF
