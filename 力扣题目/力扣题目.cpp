@@ -3,15 +3,10 @@ using namespace std;
 #include<vector>
 class Solution {
 public:
-    int maxSubArray(vector<int>& nums) {
-        int result = INT32_MIN;
-        int count = 0;
-        for (int i = 0; i < nums.size(); i++) {
-            count += nums[i];
-            if (count > result) {
-                result=count;
-            }
-            if (count <= 0) count = 0;
+    int maxProfit(vector<int>& prices) {
+        int result = 0;
+        for (int i = 0; i < prices.size() - 1; i++) {
+            result += max(prices[i + 1] - prices[i], 0);
         }
         return result;
     }
