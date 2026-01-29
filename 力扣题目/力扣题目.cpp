@@ -3,11 +3,17 @@ using namespace std;
 #include<vector>
 class Solution {
 public:
-    int maxProfit(vector<int>& prices) {
-        int result = 0;
-        for (int i = 0; i < prices.size() - 1; i++) {
-            result += max(prices[i + 1] - prices[i], 0);
+    bool canJump(vector<int>& nums) {
+        if (nums.size() == 1) {
+            return true;
         }
-        return result;
+        int cover = 0;
+        for (int i = 0; i <= cover; i++) {
+            cover = max(cover, i + nums[i]);
+            if (cover >= nums.size() - 1) {
+                return true;
+            }
+        }
+        return false;
     }
 };
