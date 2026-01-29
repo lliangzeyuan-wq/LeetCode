@@ -15,7 +15,6 @@ public:
                 index--;
             }
         }
-        cout << "fhfj";
         return result;
     }
 };
